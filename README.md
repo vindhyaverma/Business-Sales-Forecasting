@@ -138,9 +138,8 @@ Run all cells step-by-step
 
 Dataset: Kaggle – Store Sales Time Series Forecasting
 
-Task by: Future Interns
 
 📢 Author
 
 Created by Vindhya Verma
-Machine Learning Intern – 2026
+Machine Learning  – 2026
