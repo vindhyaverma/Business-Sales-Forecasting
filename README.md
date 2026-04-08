@@ -1,145 +1,169 @@
-# Business-Sales-Forecasting
-Sales & Demand Forecasting using Machine Learning
+Superstore-Sales-Analysis
+
+Sales & Profitability Analysis using Tableau Dashboard
+
 📌 Project Overview
 
-This project focuses on sales and demand forecasting using historical retail data.
-It demonstrates how Machine Learning can help businesses predict future sales and make better planning decisions.
+This project focuses on analyzing retail sales performance using the Sample Superstore dataset.
+It demonstrates how data visualization and business analytics can help companies understand sales trends, profitability, and regional performance.
 
-The project was completed as Machine Learning Task 1 (2026) under Future Interns.
+An interactive Tableau dashboard was built to explore sales patterns, profit drivers, discount impact, and geographical performance across the United States.
 
 🎯 Business Problem
 
-Businesses need accurate sales forecasts to:
+Retail companies need data insights to:
 
-Plan inventory
+Plan sales strategies
 
-Manage cash flow
+Improve profitability
 
-Prepare staffing
+Optimize discount strategies
 
-Avoid overstocking or losses
+Identify loss-making products or regions
 
-This project builds a forecasting system that predicts future daily sales using past data.
+This project analyzes historical sales data to help businesses understand what drives revenue and profit.
 
 📊 Dataset
 
-Store Sales – Time Series Forecasting (Kaggle)
+Dataset used: Sample Superstore
 
-Daily sales data from multiple stores and product families
+The dataset contains transactional retail data including:
 
-Time period: 2013–2014
+Order Date
+Sales
+Profit
+Discount
+Quantity
+Category
+Sub-Category
+Region
+State
+Customer Segment
 
-Main file used:
-
-train.csv
+The dataset includes thousands of sales records across multiple regions in the United States.
 
 🛠️ Tools & Technologies
 
-Python
+Tableau
 
-Google Colab
+Data Visualization
 
-Pandas, NumPy
+Exploratory Data Analysis
 
-Scikit-learn
+Business Analytics
 
-Matplotlib
+Dashboard Design
 
 🔧 Project Workflow
+Data Understanding
 
-Data Loading & Cleaning
+Explored retail transaction data
 
-Handled missing values
+Identified key business variables such as sales, profit, discount, and region
 
-Converted date columns
+Data Analysis
 
-Removed unnecessary columns
+Analyzed:
 
-Feature Engineering
+Sales performance by category
 
-Created time-based features:
+Profit contribution by customer segment
 
-Year
+Regional sales distribution
 
-Month
-
-Day
-
-Day of week
-
-Week of year
-
-Baseline Model
-
-Moving Average forecasting
-
-Used as a comparison benchmark
-
-Machine Learning Model
-
-Random Forest Regressor
-
-Used time features to capture patterns
-
-Improved forecast accuracy compared to baseline
-
-Model Evaluation
-
-Mean Absolute Error (MAE)
-
-ML model reduced error vs baseline
+Impact of discount on profitability
 
 Visualization
 
-Past vs actual vs predicted sales
+Created multiple charts including:
 
-30-day future sales forecast
+Bar charts
 
-📈 Results
+Scatter plots
 
-Baseline MAE: ~121,596
+Stacked charts
 
-ML Model MAE: ~108,582
+Maps
 
-Improvement: ML model captures weekly patterns and trends better
+Trend lines
 
-Future Forecast
+Dashboard Design
 
-Predicted average daily sales for next 30 days:
-≈ 580,000 – 600,000
+Built an interactive Tableau dashboard combining multiple visualizations to provide insights quickly.
 
-Trend: Stable with small weekly variations
+Filters allow exploration by category, region, and segment.
+
+📈 Key Insights
+
+Technology generates the highest total sales.
+
+Consumer segment contributes the highest profit.
+
+Higher discount levels often lead to negative profit transactions.
+
+The West region contributes the highest profit overall.
+
+Phones and Chairs are among the top-performing sub-categories.
+
+Some states generate losses despite having strong sales.
 
 💡 Business Insights
 
-The forecast helps businesses plan inventory and staffing for the next month
+Businesses should reduce heavy discounting on low-margin products.
 
-Reduces risk of overstocking or missed sales
+High-performing products like Phones and Chairs should receive more marketing focus.
 
-Supports better financial and operational planning
+Companies should analyze operational inefficiencies in loss-making states.
+
+Expanding sales efforts in profitable regions can improve overall revenue.
+
+📊 Dashboard Features
+
+Sales by Category
+
+Profit by Customer Segment
+
+Top 10 Sub-Categories by Sales
+
+Discount vs Profit Analysis
+
+Sales vs Profit Scatter Plot
+
+Profit by State Map
+
+Monthly Sales Trend
+
+Sales Forecast
+
+Interactive Filters
 
 📂 Project Structure
-├── Machine_Learning_Task_1_(2026).ipynb
-├── README.md
-└── data/
-    └── train.csv
+superstore-sales-analysis-tableau
+│
+├── dashboard
+│   └── superstore_dashboard.twbx
+│
+├── dataset
+│   └── sample_superstore.xlsx
+│
+├── images
+│   └── dashboard_screenshot.png
+│
+└── README.md
+🚀 How to Use
 
-🚀 How to Run
+Download the Tableau workbook
 
-Clone the repository
+Open the file using Tableau Desktop
 
-Open the notebook in Google Colab or Jupyter
+Explore the dashboard using filters and interactive charts
 
-Upload the dataset
+🔗 Dataset Source
 
-Run all cells step-by-step
-
-🔗 Acknowledgement
-
-Dataset: Kaggle – Store Sales Time Series Forecasting
-
+Sample Superstore Dataset (Tableau Sample Data)
 
 📢 Author
 
 Created by Vindhya Verma
-Machine Learning  – 2026
+Artificial Intelligence and Data Science
+IIT Jodhpur
